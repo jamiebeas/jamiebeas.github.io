@@ -3,75 +3,136 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Jamie Beasley Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jamie Beasley Portfolio</title>
+        <link rel="shortcut icon" href="resources/J.png">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
-    <body>
-        <header>
-            <img class="logo" src="resources/j_logo.svg" alt="logo">
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <a class="cta" href="#"><button>Resume</button></a>
-        </header>
-
-    <div>
-        <div class="home">
-            <h3>Hello, my name is</h3><h1> Jamie Beasley.</h1>
-            <p>I'm an entry-level Full-Stack Engineer, specialising in web design, user interface design and Front-End development.</p>
-            <div class="line-container">
-                <hr class="line">
+<body>
+    <!-- Left side of the screen for desktop browsers -->
+    <div class="container">
+        <section class="aboutme"> 
+            <div class="abouttitle">
+                <h1>Jamie Beasley</h1>
+                <h3>Full-Stack engineer</h3>
+                <h4>I used to program for the human body, and now I program for computers.</h4>
+                <h5><a href="#about"><i class="fa-solid fa-terminal"></i> About</h5></a>
+                <h5><a href="#experience"><i class="fa-solid fa-terminal"></i> Experience</h5></a>
+                <h5><a href="#skills"><i class="fa-solid fa-terminal"></i> Skills</h5></a>
+                <h5><a href="#projects"><i class="fa-solid fa-terminal"></i> Projects</h5></a>
+                <h5><a href="mailto: info@jamiebeas.com"><i class="fa-solid fa-terminal"></i> Contact</h5></a>
+            </div>         
+        </section>
+        <!-- Right side of the screen for desktop browsers -->
+        <section class="aboutpages">
+            <div id="about" class="desc">
+                <h2>Hi, I'm Jamie! I'm a <b>Full-Stack engineer</b>. I am currently working in the FinTech industry as a business development manager and looking for my first job as a developer.
+                <br><br>I've always leaned into technology to make my life easier and more efficient. After many inspirations of revolutionary tech, I decided I wanted to build the skills to understand and develop software that can solve problems and make life easier.
+                <br><br>Using <b>HTML5, CSS3, JavaScript, React.js, and Git/GitHub</b>. I can build scalable, efficient, Front-End (client-side) applications and services. 
+                <br>My Back-End (server-side) skill set is a WIP. However, within the <b>Node.js</b> back-end environment, I am using <b>Express.js, PostgreSQL, and Swagger</b>.
+                <br><br>Using a combination of the above, I can build a cohesive Full-Stack application using the <b>PERN</b> stack and <b>GitLab</b> to bring everything together with <b>DevOps</b>.
+                <br><br>When I'm not using tech, you'll find me weightlifting, training Jiu-Jitsu or exploring. I love to travel and meet new people. Before becoming a developer, I spent 7 years coaching fitness in Thailand, United Arab Emirates, and Indonesia and had the pleasure of working with thousands of people.</h2>
             </div>
-        </div>
+        <!-- Professional experience 1 -->
+            <div id="experience" class="job-card">
+                <div class="job1">
+                    <div class="job-header">
+                        <h2 class="date">2022 - 2023</h2>
+                        <a href="https://quantreports.com" target="_blank"><h2 class="jobtitle">Business Development Manager | Quant Reports <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></h2></a>
+                    </div>
+                    <div class="job-body">
+                        <p class="jobdesc">Through the maintenance of a working knowledge of the Financial sector. I develop and implement new marketing, sales plans, and strategies to expand QR's client base. Identifying suitable clients for QR's services and leading outreach campaigns to prospective clients. QR uses a ??tech stack??</p>
+                    </div>
+                </div>
+            </div>
+         <!-- Professional experience 2 -->
+            <div class="job-card">
+                <div class="job2">
+                    <div class="job-header">
+                        <h2 class="date">2020 - 2022</h2>
+                        <h2 class="jobtitle">Founder | Jamiebeas</h2>
+                    </div>
+                    <div class="job-body">
+                        <p class="jobdesc">I founded 'Jamiebeas" to provide an online training and nutrition coaching service. I managed all aspects of business development, market research, marketing, finance, operations, company growth and client success. Using HTML, CSS & JavaScript, I developed the user onboarding experience and membership area.</p>
+                    </div>
+                </div>
+            </div>
+        <!-- Professional experience 3 -->
+            <div class="job-card">
+                <div class="job3">
+                    <div class="job-header">
+                        <h2 class="date">2018 - 2020</h2>
+                        <a href="https://www.vfuae.com" target="_blank"><h2 class="jobtitle">Head Coach | Vogue Fitness <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></h2></a>
+                    </div>
+                    <div class="job-body">
+                        <p class="jobdesc">Opened a new facility in Abu Dhabi and delivered over 2,000 coaching hours in both a group and one-on-one setting. Was the team lead for 4 coaches and developed training programs for multiple facilities to ensure high-quality client experiences.</p>
+                    </div>
+                </div>
+            </div>
+         <!-- Professional experience 4 -->
+            <div class="job-card">
+                <div class="job4">
+                    <div class="job-header">
+                        <h2 class="date">2016 - 2018</h2>
+                        <a href="https://www.titanfitnesscamp.com" target="_blank"><h2 class="jobtitle">Head Coach | Titan Fitness <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></h2></a>
+                    </div>
+                    <div class="job-body">
+                        <p class="jobdesc">Delivered over 2,000 coaching hours in both a group and one-on-one setting, often coaching groups of 30 + people. I led a 12-person team, and was responsible for ensuring coaches were adequately trained and prepared to manage large groups of people and deliver a great client experience.</p>
+                    </div>
+                </div>
+            </div>
+         <!-- Skills section - Languages/Frameworks/Libraries/Tools/Design -->
+            <div class="skills">
+                <div>
+                    <h1 class="skillstitle">Languages</h1>
+                    <ul class="skillslist">
+                        <li><i class="fa-brands fa-square-js" style="color: #f5ec00;"></i></li>
+                        <li><i class="fa-brands fa-css3-alt" style="color: #00a3d7;"></i></li>
+                        <li><i class="fa-brands fa-html5" style="color: #ff6a00;"></i></li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="skillstitle">Frameworks/Libraries</h1>
+                    <ul class="skillslist">
+                        <li><i class="fa-brands fa-react" style="color: #00c7fc;"></i></li>
+                        <li><i class="fa-brands fa-node" style="color: #669c35;"></i></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="skillstitle">Tools</h1>
+                    <ul class="skillslist">
+                        <li><i class="fa-brands fa-git-alt" style="color: #ff4013;"></i></li>
+                        <li><i class="fa-brands fa-github" style="color: #000000;"></i></li>
+                        <li><i class="fa-brands fa-gitlab" style="color: #ff4013;"></i></li>
+                        <li><i class="fa-brands fa-chrome" style="color: #3a88fe;"></i></li>
+                        <li><i class="fa-brands fa-hubspot" style="color: #ff6a00;"></i></li>
+                        <li><i class="fa-brands fa-wix" style="color: #000000;"></i></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="skillstitle">Design</h1>
+                    <ul class="skillslist">
+                        <li><i class="fa-brands fa-figma" style="color: #ff6a00;"></i></li>
+                        <li><i class="fa-brands fa-invision" style="color: #e63b7a;"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
-    <div class="about">
-        <div class="about-image">
-          <img src="resources/headshot copy.PNG" alt="Profile image">
-        </div>
-        <div class="about-content">
-          <h1>About me</h1>
-          <p>Hi, I'm Jamie! I'm a keen entry-level full-stack engineer, currently working in the Fintech industry as a business development manager. 
-              <br>
-              <br> I don't have a traditional story
-              With a strong foundation in HTML5, CSS3, and SQL, I'm actively expanding my skillset by studying full-stack engineering on Codecademy and learning JavaScript. Passionate about NFTs, Jiu-Jitsu, and fitness, I'm eager to join an innovative, fast-paced company where I can grow and contribute to the team's success.
-            </p>
-            <br>
-            <p class="techstack">Add your tech stack here somewhere</p>
-            <div class="line-container">
-                <hr class="line">
-            </div>
-        </div>
-      </div>
-
+    <!-- Social icons -->
     <div class="social_nav">
         <div class="icon">
-            <i class="fa-solid fa-envelope"></i>
+            <a href ="mailto: info@jamiebeas.com"><i class="fa-solid fa-envelope"></i></a>
         </div>
         <div class="icon">
-            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/jamiebeas" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
         <div class="icon">
-            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/jamiebeas" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
     </div>
-
-
-    </div>
-
- </body>
-    <footer>
-        <div class="footer_container">
-            <div class="footer-info">
-                <a href="#" class="footer-title"></a>
-            </div>
-        </div>
-    </footer>
+</body>
 </html>
