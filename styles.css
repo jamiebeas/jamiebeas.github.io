@@ -6,10 +6,7 @@
     color: #1e3050;
     font-family: 'Lato', sans-serif;
 }
-
 html {
-    /* background: #13293D; */
-    /* background: linear-gradient(to right, #ffffff, #faf9f6) */
   background-color: #fffffd;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%231e3050' fill-opacity='0.04' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
@@ -19,11 +16,9 @@ a {
 body {
   scroll-behavior: smooth;
 }
-
 /* Left side of the screen for desktop browsers */
 .container {
   height: 100vh;
-  overflow: hidden;
   display: flex;
 }
 .aboutme {
@@ -158,12 +153,10 @@ body {
   display: flex;
   flex-direction: row;
   margin: 10px 0px;
-}
-.skillstitle {
   font-weight: 400;
 }
 .skillslist {
-  font-size: 2.2vh;
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   gap: 3%;
@@ -175,40 +168,36 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 /* Responsive web design */
-@media only screen and (max-device-width : 480px) {
-  .aboutme {
-    height: 50%;
+@media only screen and (max-device-width : 600px) {
+  .container {
+    display: block;
+    overflow-x: hidden;
+    margin-bottom: 5%;
+  }
+  .container > * {
     width: 100%;
   }
-  .aboutpages {
-    
+  .abouttitle {
+    margin-left: -6%;
   }
-
-
+  .aboutme {
+    margin: 0;
+  }
+  .aboutpages {
+    overflow-y: visible;
+    margin-left: 15%;
+    margin-top: -200px;
+  }
+  .hidden, .icon {
+    display: none;
+  }
+  .skillstitle {
+    font-size: 1.5rem;
+  }
 }
-
-@media only screen and (max-width: 600px) {
-  /* styles for mobile devices */
-  
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* styles for tablet devices */
-
-}
-
-@media only screen and (min-width: 1025px) {
-  /* styles for desktop devices */
-
-}
-
-
-
-
 /* Social media icons */
 .social_nav {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   flex-direction: row;
   position: fixed;
